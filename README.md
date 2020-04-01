@@ -2,5 +2,6 @@
 
 The organization is as follows:
 
-sql - The SQL folder has local scripts for each dataset which convert.
-[mimic-iii][/sql/mimic-iii] - MIMIC-III is a publicly accessible critical care database. Though MIMIC-III does not contain information on patients with COVID-19, its highly accessible nature makes it useful for prototyping. The MIMIC-III Clinical Database Demo is openly available and can be used to better understand the queries and ultimate data structure.
+covid19_sql contains SQL queries that extract ventilatior information, medication, hourly laboratory values, and etc. 
+
+hemodilution_sql contains SQL queries related to HST 953 projects - predicting hemoglobin level after fluid resuscitation
